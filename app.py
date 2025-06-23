@@ -84,7 +84,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-modelo = joblib.load("modelo_xgb_calibrado.json")
+modelo = joblib.load("modelo_xgb_calibrado.pkl")
 columnas_modelo = joblib.load("columnas_modelo.pkl")
 umbral = 0.4
 
